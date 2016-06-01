@@ -1,0 +1,43 @@
+*{
+	margin: 0;
+	padding: 0;
+	vertical-align: top;
+}
+
+#wrapper{
+	margin: 0 auto;
+	width: 960px;
+}
+
+aside, main{
+	display: inline-block;
+	width: 450px;
+}
+form{
+	margin-top: 30px;
+}
+form div, .description {
+
+	margin-bottom:20px;
+}
+.btn{
+	padding-left: 30px;
+}
+[placeholder]:focus::-webkit-input-placeholder {
+  transition: opacity 0.5s 0.5s ease; 
+  opacity: 0;
+}
+.description{
+	display: block;
+}
+.newDiv{
+	width: 300px;
+	text-align: center;
+	border: 1px solid silver;
+	margin-top: 20px;
+	height: 100px;
+	padding-top: 15px;
+}
+.newDiv p {
+	padding-top: 20px;
+}
